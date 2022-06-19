@@ -1,9 +1,60 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "image": "http://res.cloudinary.com/dgcnhsz9h/image/upload/v1655634663/qpnzsprbnubqi8zkqoe6.png",
+      "video": "",
+      "text": "Hello second one",
+      "timestamp": 1655634664701,
+      "author": "lewisjones",
+      "id": 4
+    },
+    {
+      "image": "",
+      "video": "",
+      "text": "This is a post without media",
+      "timestamp": 1655637479014,
+      "author": "aridTimber",
+      "id": 5
+    },
+    {
+      "image": "http://res.cloudinary.com/dgcnhsz9h/image/upload/v1655637557/m1gkdduyogqkj3jlsw9s.jpg",
+      "video": "",
+      "text": "Check this out",
+      "timestamp": 1655637558221,
+      "author": "aridTimber",
+      "id": 6
+    },
+    {
+      "image": "http://res.cloudinary.com/dgcnhsz9h/image/upload/v1655638742/b30ioy4luu5thukmmndu.png",
+      "video": "",
+      "text": "my post ",
+      "timestamp": 1655638743723,
+      "author": "anotheruser",
+      "id": 7
+    },
+    {
+      "image": "",
+      "video": "",
+      "text": "Sample post to test",
+      "timestamp": 1655640478684,
+      "author": "anotheruser",
+      "id": 8
+    },
+    {
+      "image": "",
+      "video": "",
+      "text": "first video upload",
+      "timestamp": 1655640504863,
+      "author": "anotheruser",
+      "id": 9
+    },
+    {
+      "image": "",
+      "video": "http://res.cloudinary.com/dgcnhsz9h/video/upload/v1655640509/fs6uzwp23ypgp0opqmp8.mp4",
+      "text": "first video upload",
+      "timestamp": 1655640510319,
+      "author": "anotheruser",
+      "id": 10
     }
   ],
   "comments": [
