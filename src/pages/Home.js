@@ -14,7 +14,11 @@ const Home = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/posts');
+      const DEV = process.env.NODE_ENV !== 'production';
+      const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
+      const response = await axios.get(
+        `${DEV ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`
+      );
       if (response) {
         setData(response.data.sort((a, b) => b.timestamp - a.timestamp));
       }
@@ -25,7 +29,13 @@ const Home = () => {
 
   const postData = async (newdata) => {
     try {
-      const response = await axios.post('http://localhost:5000/posts', newdata);
+      //   check if prodution or dev
+      const DEV = process.env.NODE_ENV !== 'production';
+      const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
+      const response = await axios.post(
+        `${DEV ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`,
+        newdata
+      );
       if (response.data) {
         setData(
           [...data, response.data].sort((a, b) => b.timestamp - a.timestamp)

@@ -6,7 +6,8 @@ const cors = require('cors');
 const middleware = jsonServer.defaults({
   static: './build',
 });
-const PORT = process.env.PORTS || 5000;
+
+const PORT = 8000;
 server.use(middleware);
 server.use(
   jsonServer.rewriter({
