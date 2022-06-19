@@ -10,11 +10,11 @@ const middleware = jsonServer.defaults({
 
 const PORT = process.env.PORT || 5001;
 server.use(middleware);
-server.use(
-  jsonServer.rewriter({
-    '/api/*': '/$1',
-  })
-);
+// server.use(
+//   jsonServer.rewriter({
+//     // '/api/*': '/$1',
+//   })
+// );
 server.use(router);
 server.use(cors());
 server.listen(PORT, () => {
