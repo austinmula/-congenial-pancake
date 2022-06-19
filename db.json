@@ -55,6 +55,30 @@
       "timestamp": 1655640510319,
       "author": "anotheruser",
       "id": 10
+    },
+    {
+      "image": "",
+      "video": "",
+      "text": "Very simple pose",
+      "timestamp": 1655672601820,
+      "author": "Jane Doe",
+      "id": 11
+    },
+    {
+      "image": "http://res.cloudinary.com/dgcnhsz9h/image/upload/v1655672619/quuxnj4dnatg18tdqkqa.png",
+      "video": "",
+      "text": "another",
+      "timestamp": 1655672620694,
+      "author": "Jane Doe",
+      "id": 12
+    },
+    {
+      "image": "",
+      "video": "http://res.cloudinary.com/dgcnhsz9h/video/upload/v1655672638/s37ksgxzfrlltxhk5hnw.mp4",
+      "text": "yooooooooooooo",
+      "timestamp": 1655672640409,
+      "author": "Jane Doe",
+      "id": 13
     }
   ],
   "comments": [
